@@ -1,0 +1,41 @@
+.navbar{
+    background-color: palevioletred;
+}
+
+.radius .navbar-brand .logo {
+    border-radius: 50%;
+
+}
+.collapse .me-auto .nav-item .nav-link{
+    color: white;
+    padding: 35px;
+    font-size:25px;
+}
+.text-center {
+    padding: 10px;
+    background-color: aquamarine;
+}
+.col{
+    text-align:center;
+}
+.col .rounded-circle{
+    border-radius: 5px;
+    height: 35px;
+}
+.col .square{
+    border-radius: 5px;
+    height: 55px;
+
+}
+.object-fit-cover{
+    width: 1300px;
+    height: 600px;
+}
+.text-center .container-fluid{
+    background-color: white;
+}
+.image1{
+   height: 200px;
+   width: 200px;
+   border-radius: 50px;
+}
