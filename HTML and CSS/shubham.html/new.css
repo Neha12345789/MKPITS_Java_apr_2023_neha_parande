@@ -1,0 +1,7 @@
+.navbar{
+    background-color: violet;
+}
+
+.container-fluid .navbar-brand .logo{
+    border-radius: 50%;
+}

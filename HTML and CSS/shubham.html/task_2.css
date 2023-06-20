@@ -1,0 +1,35 @@
+.card{
+    margin: 20px;
+    position: relative;
+    top: 200px;
+}
+/* img{
+    border-radius: 50%;
+    
+} */
+.card-img-top{
+    /* border-radius: 50%; */
+    position: relative;
+    bottom: 50px;
+    width: 100px;
+    left: 60px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px white;
+
+
+}
+.card{
+    background-color: rgb(236, 165, 118);
+
+}
+.card-text{
+    font-family: cursive;
+    font-size: 18px;
+
+}
+footer{
+    background-color: rgb(218, 173, 173);
+}
+   
+
+

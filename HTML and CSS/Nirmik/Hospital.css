@@ -1,0 +1,60 @@
+.logo{
+    border-radius: 20%;
+   }
+   .collapse .navbar-nav .nav-item .nav-link{
+       padding: 35px;
+   }
+   .navbar{
+       background-color:pink;                                                                                                                                          ;
+   }
+   h3{
+    text-align: center;
+    background-color: coral;
+   }
+  h5{
+    text-align: center;
+  }
+  h2 {
+    padding: 20px;
+    text-decoration-color: palevioletred;
+}
+.image{
+    height: 200px;
+    width: 300px;
+    border-radius: 20%;
+}
+footer{
+    width: 1000px;
+}
+.col .image{
+    height: 190px;
+    width: 300px;
+}
+.imp{
+    height:200px;
+    width: 300px;
+    border-radius: 30%;
+    align-items: flex-start;
+}
+.para1{
+    padding: 20px;
+   border: 5px outset black;
+}
+.para2{
+    padding: 30px;
+    box-shadow: 10px 10px 5px inset gray;
+}
+.rounded-circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 20%;
+
+}
+.square{
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+}
+.col {
+    align-items: end;
+}

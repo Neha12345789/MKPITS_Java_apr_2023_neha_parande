@@ -1,0 +1,14 @@
+.navbar{
+    background-color: pink;
+}
+
+.container-fluid .navbar-brand .logo{
+    border-radius: 70%;
+}
+.collapse .navbar-nav .nav-item .nav-link{
+ width: 100px; height: 100px; padding: 50%;
+ color: blue; 
+}
+i:hover{
+    font-size: 50px;
+}
