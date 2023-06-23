@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h4>assignment opeartor</h4>
+<button onclick="event()">Simple</button><br><br>
+<button onclick="event1()">Addequals</button><br><br>
+<button onclick="event2()">subequals</button><br><br>
+<button onclick="event3()">mulequals</button><br><br>
+<button onclick="event4()">modequals</button><br><br>
+<p id="ass1"></p>
+<h4 id="ass2"></h4>
+<h5 id="ass3"></h5>
+<h5 id="ass4"></h5>
+<h5 id="ass5"></h5>
+
+<script>
+let y = 14
+let x = 10 + y;
+function event(){
+document.getElementById("ass1").innerHTML = "Value of x is: " + x;
+}
+
+
+let text = "Hello"
+    text+= "world";
+function event1(){
+document.getElementById("ass2").innerHTML=text; 
+}   
+
+
+let b = 20;
+b -= 15;
+function event2(){    
+document.getElementById("ass3").innerHTML= "value of b is: " + b;    
+
+}
+
+
+let s = 93;
+s %= 5;
+function event4(){    
+document.getElementById("ass5").innerHTML= "value of s is: " + s;    
+
+}
+
+</script>
+
+
+</body>
+</html>
