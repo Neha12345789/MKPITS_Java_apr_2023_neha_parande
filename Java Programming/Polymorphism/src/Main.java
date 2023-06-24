@@ -9,9 +9,18 @@ public class Main {
         Laptop l = new Laptop();
              l.main(1);
              
-        Fingure f = new Fingure();
-         f.numberofring();
-        System.out.println(res);
+//        Fingure f = new Fingure();
+//         f.numberofring();
+//        System.out.println(res);
+
+
+
+            Operator o = new Operator();
+            o.Addition(9,4);
+
+
+
+        }
 
     }
-}
+
