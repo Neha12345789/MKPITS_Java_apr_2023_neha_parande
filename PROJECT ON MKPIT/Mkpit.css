@@ -1,0 +1,56 @@
+.navbar{
+    background: rgb(192,63,251);
+background: linear-gradient(90deg, rgba(192,63,251,0.7483368347338936) 0%, rgba(102,221,252,0.6587009803921569) 64%, rgba(70,223,252,1) 87%);
+}
+.neha{
+    height: 80px;
+    width: 130px;
+}
+.carousel-item{
+    height: 700px;
+}
+.class1{
+    margin-top: 70px;
+    margin-left: 10px;
+    border-radius: 30%;
+    border-image: fill;
+}
+.col-md-6{
+    height: 250px;
+    width: 500px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card-body .p1{
+    height: 150px;
+    width: 150px;
+    
+    padding: 20px;
+    margin: 15%;
+    align-items: center;
+
+}
+
+body{
+    background-color: bisque;
+}
+.image1{
+    height: 250px;
+    width: 400px;
+    border-radius: 20%;
+}
+.gap{
+    margin-top: 80px;
+}
+.center{
+    text-align: center;
+    margin-top: 50px;
+}
+.bg-light{
+    margin-top: 30px;
+}

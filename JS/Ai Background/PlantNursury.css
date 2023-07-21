@@ -1,0 +1,46 @@
+body{
+    background-color: palegreen;
+}
+.navbar{
+    background-color: greenyellow;
+    height: 120px;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+a{
+    font-weight:bold ;
+}
+.d-block{
+    height: 500px;
+    width: 700px;
+    
+}
+.image2{
+    height: 250px;
+    width: 250px;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 35%;
+    
+}
+.image1{
+    height: 250px;
+    width: 250px;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 35%;
+   
+}
+.div1{
+    background-image:url(graph2.png);
+    background-repeat: no-repeat;
+}
+.div2{
+    background-image:url(graph1.png);
+    background-repeat: no-repeat;
+
+}

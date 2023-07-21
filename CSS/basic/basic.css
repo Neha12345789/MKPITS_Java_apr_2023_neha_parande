@@ -56,6 +56,8 @@ font-family: 'Noto Sans KR', sans-serif;
     text-decoration: underline overline;
     
 }
-.second{
+.para2{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(8,31,131,0.9780287114845938) 40%, rgba(0,212,255,1) 100%);
     
 }
