@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="NewTask.css">
+</head>
+<body>
+    <div class='overlay'>
+        <div class='popup'>
+            <div class='close'>&#10006;</div>
+             <h2>Popup</h2> 
+            
+        </div>
+    </div>
+    
+    
+    <button class="button">Show</button>
+
+        <script>
+           $('.button').click(function () {
+    $('.overlay').hide();
+})
+$('.close').click(function () {
+    $('.overlay').show();
+})
+        </script>
+
+</body>
+</html>
+         
