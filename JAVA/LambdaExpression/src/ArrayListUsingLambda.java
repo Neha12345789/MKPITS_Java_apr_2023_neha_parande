@@ -7,7 +7,7 @@ public class ArrayListUsingLambda {
         List<String> list = new ArrayList<String>();
         list.addAll(Arrays.asList("Neha", "teju", "Pradhnya", "Mrunali"));
         list.forEach(
-                (Names)-> System.out.println(Names)
+                System.out::println
     );
 
     }

@@ -35,6 +35,9 @@ public class Main {
                  System. out.println("this is runnable Interface");
              }
          };
+         Runnable runnable1 = ()->{
+
+         };
 
          OddEvenNumber oddEvenNumber = new OddEvenNumber();
 
