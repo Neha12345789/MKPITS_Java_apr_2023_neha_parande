@@ -3,22 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Servlets;
+package FirstPackage;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author ACER
+ * @author as
  */
-@WebServlet(name = "FirstServlet", urlPatterns = {"/FirstServlet"})
-public class FirstServlet extends HttpServlet {
+public class DisplayData extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -33,16 +35,47 @@ public class FirstServlet extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
+             try{
+                 Class.forName("com.mysql.cj.jdbc.Driver");
+             
+                 Connection  connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sakila", "root", "neha@123");
+               Statement statement = connection.createStatement();
+                out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet FirstServlet</title>");            
-            out.println("</head>");
+            out.println("<title>"+ "Servlet formData</title>");            
+            out.println("</head>");                                                                                      
             out.println("<body>");
-            out.println("<h1>Servlet FirstServlet at " + request.getContextPath() + "</h1>");
-            out.println("</body>");
-            out.println("</html>");
+           
+           
+            ResultSet resultSet = statement.executeQuery("select * from student_details");
+            out.println(" <table align=center border=1 cellspacing=5>"
+                    + "<tr>"
+                    +"<th>Roll_no</th>"
+                    +"<th>student_name</th>"
+                    +"<th>Physics</th>"
+                    +"<th>Chemistry</th>"
+                    +"<th>Maths</th>"
+                    +"</tr>");
+             while (resultSet.next()) {      
+                    out.println("<tr>"
+                    +"<td>"+resultSet.getString(1)+"</td>"
+                    +"<td>"+resultSet.getString(2)+"</td>"    
+                    +"<td>"+resultSet.getString(3)+"</td>"    
+                    +"<td>"+resultSet.getString(4)+"</td>"  
+                    +"<td>"+resultSet.getString(5)+"</td>"         
+                    + "</tr>");
+            }
+             out.println("</table");
+              out.println("</body>");
+             out.println("</html>");
+   
+            }catch(Exception e){
+                out.println(e);
+            }
+           
+             
+           
         }
     }
 
