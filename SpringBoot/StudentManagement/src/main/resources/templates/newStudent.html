@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<div class="d-flex justify-content-center">
+
+<form th:action="@{/students/save}" th:object="${stud}" method="post">
+    <h3>ADD STUDENT</h3>
+    <label>Roll No :</label><br>
+    <input type="number" th:field="*{roll_No}"><br>
+    <label>Name  :</label><br>
+    <input type="text" th:field="*{name}"><br>
+    <label>Address  :</label><br>
+    <input type="text" th:field="*{address}"><br>
+    <label>City  :</label><br>
+    <input type="text" th:field="*{city}"><br><br>
+
+    <button class="btn btn-primary">Submit</button>
+</form>
+</div>
+</body>
+</html>

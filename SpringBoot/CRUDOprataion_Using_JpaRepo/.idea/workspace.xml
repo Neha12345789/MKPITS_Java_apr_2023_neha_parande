@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66d091ee-b799-4b65-8ea7-28bf7b258c6d" name="Changes" comment="">
+    <list default="true" id="3e4a64c7-5de0-4c52-9128-8d5ebbc3d9e2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../SERVLET/BankApplication/Deposit.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SERVLET/BankApplication/HomePage.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SERVLET/BankApplication/InsertData.java" beforeDir="false" />
@@ -38,6 +38,7 @@
       <change beforePath="$PROJECT_DIR$/../../SERVLET/Student_application_using_MVC/EntityClass.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SERVLET/Student_application_using_MVC/EntityTransctions.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SERVLET/Student_application_using_MVC/ServiceClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataRestLevel2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataRestLevel2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,34 +48,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
-}</component>
-  <component name="ProjectId" id="2Z9q7stdt3q73zDXaKeDcJ0esgm" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2ZDERetz9U5rnfkr2Nb2yHp4c2a" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/MKPITS/MKPITS_Java_apr_2023_neha_parande/SpringBoot/DataRestLevel2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="66d091ee-b799-4b65-8ea7-28bf7b258c6d" name="Changes" comment="" />
-      <created>1701844479190</created>
+      <changelist id="3e4a64c7-5de0-4c52-9128-8d5ebbc3d9e2" name="Changes" comment="" />
+      <created>1701948245417</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1701844479190</updated>
-      <workItem from="1701844480611" duration="61000" />
-      <workItem from="1701929185618" duration="13000" />
+      <updated>1701948245417</updated>
+      <workItem from="1701948247175" duration="100000" />
     </task>
     <servers />
   </component>
